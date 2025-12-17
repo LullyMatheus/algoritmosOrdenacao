@@ -5,9 +5,9 @@ public class Simulacao {
 
     public static void main(String[] args) {
         // Configurações da simulação
-        int tamanhoInicial = 1000;
-        int incremento = 1000;
-        int numeroDeIteracoes = 500; //DEFINIR NUMERO DE ITERACOES
+        int tamanhoInicial = 10000;
+        int incremento = 10000;
+        int numeroDeIteracoes = 20; //DEFINIR NUMERO DE ITERACOES
         
         // Instancia os algoritmos
         Sorter quick = new QuickSort();
